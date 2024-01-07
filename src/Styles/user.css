@@ -1,0 +1,127 @@
+#loginform {
+    width: 350px;
+    margin: auto;
+    border-radius: 10px;
+    background-color: slategray;
+    color: black;
+    padding: 20px 0 20px 30px;
+    box-shadow: 5px 5px 5px black;
+}
+.user-page {
+    width: 100%;
+}
+.sub-user-page {
+padding: 20px;
+}
+#loginform:hover {
+    scale: 1.1;
+    transition: 0.25s;
+}
+#sup-heading {
+    margin: 10px 20px 10px 0;
+    text-align: center;
+    color: whitesmoke;
+    text-decoration: none;
+}
+#loginform label{
+    display: inline-block;
+    width: 37%;
+    padding: 5px;
+}
+.terms-policy {
+    font-size: 12px;
+    text-align: center;
+    padding: 0 20px 0 0 ;
+    margin: 20px;
+    color: #333333;
+} 
+.remember-me {
+    font-size: 12px;
+    color: #333333;
+
+}
+.terms-policy span, .remember-me span{
+    top: -2px;
+    position: relative;
+}
+
+.account,.copyright {
+    font-size: 14px;
+    color: #333333;
+    text-align: center;
+
+}
+#copyright {
+    font-size: 12px;
+}
+
+.account a {
+    color: rgb(11, 20, 69);
+    cursor: pointer;
+}
+#loginform input:not(:last-child) {
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.eye {
+    position: relative;
+    right: 20px;
+    cursor: pointer;
+}
+#S-UP-btn {
+    border: none;
+    width: 90%;
+    height: 40px;
+    border-radius: 50px;
+    margin: 0 5px;
+    font-size: 15px;
+    background-color: black;
+    color: white;
+    font-weight: 500;
+}
+#S-UP-btn:hover {
+    background-color: white;
+    color: black;
+    transition: 0.25s;
+    cursor: pointer;
+    scale: 1.1;
+}
+#forgot-psw {
+    color: #BDBDBD;
+    font-size: 13px;
+    display: block;
+    margin: -10px 0 10px 10px;
+}
+@media only screen and (max-width: 767px) {
+    #sup-heading {
+        font-weight: 300;
+
+    }
+    .terms-policy {
+        font-size: 10px;
+    }
+    #loginform {
+        width: 90%;
+        margin: auto;
+        padding: 10px 0 20px 30px;
+    }
+    #loginform label {
+        display: -webkit-inline-box;
+        width: 25%;
+        font-size: 13px;
+     }
+     #loginform input {
+        width: 60%;
+     }
+     #S-UP-btn {
+        font-size: 13px;
+        height: 35px;
+     }   
+     .terms-policy #checkbox, .remember-me #checkbox {
+        width: 15px;
+    }    
+}
