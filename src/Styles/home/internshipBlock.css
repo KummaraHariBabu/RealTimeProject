@@ -13,21 +13,26 @@
     text-align: center;
     font-size: 30px;
 }
-.cources-block {
+.linkContents {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    gap: 150px;
+
+}
+.linkHeadings {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    width: 80%;
-    margin: auto;
-
-}
-.cources-block a {
+    margin: -10px 20px 10px 20px;
     font-size: 25px;
-    color: white;
-    text-decoration: none;
+}
+.linkHeading {
     position: relative;
 }
-.cources-block a::before {
+.linksHeaders::before {
     content: '';
     width: 0;
     height: 2px;
@@ -36,44 +41,33 @@
     bottom: -4px;
     left: 0;
     transition: all ease-in-out 0.25s;
-
 }
-.cources-block a:hover::before {
+.linksHeaders:hover::before {
     width: 100%;
 }
-.cources-block a:hover {
+.linkHeading:hover {
     color: #F5C055;
 }
-.content-block {
-    display: flex;
-    gap: 150px;
-    justify-content: space-evenly;
-    width: 100%;
-    margin-top: 70px;
-}
-.content-blocks {
-    width: 50%;
-}
-.content-blocks img{
+.linkContents img{
     width: 400px;
     height: 300px;
 }
-.left ul li{
+.linkContents ul li{
     /* list-style-image: url('../../Assets/image/list-type.svg')  ; */
     padding: 0 15px 15px 15px;
     font-size: 20px;
     list-style-type: none;
 }
-.left ul li button{
-    background-color: #F5C055;
+.linkContents ul li button{
+    background-color: #FCAE16;
     border: none;
     outline: none;
-    padding: 5px 25px;
+    padding: 10px 25px;
     border-radius: 5px;
     font-size: 20px;
 }
 .internship-blocks .span-text {
-    color: #F5C055;
+    color: #FCAE16;
 }
 @media only screen and (max-width: 768px) {
     .internshipblock-page h2 {
@@ -87,32 +81,26 @@
         width: 95%;
         border-radius: 0px;
     }
-    .cources-block {
+    .linkHeadings {
+        font-size: 14px;
         width: 100%;
         text-align: center;
+        margin: 0;
     }
-    .cources-block a {
-        font-size: 14px;
-    }
-    .content-block {
+    .linkContents {
         display: block;
         margin: 20px -25px;
         font-size: 13px;
-    }
-    .content-blocks {
         width: 100%;
     }
-    .left ul li h4 {
-        margin: 0;
-    }
-    .left ul li{
+    .linkContents ul li{
         font-size: 13px;
     }
-    .left ul li button{
+    .linkContents ul li button{
         padding: 5px 20px;
         font-size: 15px;
     }
-    .content-blocks img{
+    .linkContents img{
         width: 100%;
         height: 200px;
         padding: 0 0 0 25px;

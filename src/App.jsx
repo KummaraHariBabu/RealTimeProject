@@ -12,7 +12,7 @@ import Forgotpassword from './Components/Password/Forgotpassword'
 import NewPassword from './Components/Password/NewPassword'
 import Confirmation from './Components/Password/Confirmation'
 import InternShipPrograms from './Components/Home/InternShipPrograms'
-
+ 
 const App = () => {
   return (
     <div>
@@ -28,7 +28,7 @@ const App = () => {
           <Route path='/forgotpassword' element={<Forgotpassword/>} />
           <Route path='/newpassword' element={<NewPassword/>} />
           <Route path='/confirmation' element={<Confirmation/>}/>
-          <Route path='/internshipprograms' element={<InternShipPrograms/>}/>
+          {/* <Route path='/internshipprograms' element={<InternShipPrograms/>}/> */}
         </Routes>
       </BrowserRouter>
       <Footer/>
