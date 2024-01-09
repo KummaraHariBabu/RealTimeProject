@@ -1,0 +1,51 @@
+.clients-page {
+    /* width: 100%; */
+    margin: 10px 0;
+    background-color: rgb(225, 206, 209);
+    text-align: center;
+    color: black;
+    padding: 5px 10px 20px 40px;
+}
+.clients-page h2 {
+    font-size: 20px;
+}
+.companies {
+    display: flex;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: scroll 20s linear infinite; /* Adjust the duration as needed */
+  }
+.companies img {
+    width: 100px;
+    height: auto;
+    aspect-ratio: 16/6;
+    object-fit: contain;
+    margin: 0 20px; /* Adjust the margin between images */
+}
+ @keyframes scroll {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-100%); /* Adjust based on the number of images and margin */
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    .clients-page {
+        /* font-size: 13px; */
+        padding: 10px 0 10px 0;
+    }
+    .clients-page h2 {
+        font-size: 18px;
+    }
+    .companies img {
+        width: 40px;
+        height: auto;
+        aspect-ratio: 16/6;
+        object-fit: contain;
+        margin: 0 20px; /* Adjust the margin between images */
+    }
+    
+  }
+  

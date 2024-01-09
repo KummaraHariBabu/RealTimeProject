@@ -11,7 +11,6 @@ import Home from './Components/Home'
 import Forgotpassword from './Components/Password/Forgotpassword'
 import NewPassword from './Components/Password/NewPassword'
 import Confirmation from './Components/Password/Confirmation'
-import InternShipPrograms from './Components/Home/InternShipPrograms'
  
 const App = () => {
   return (
