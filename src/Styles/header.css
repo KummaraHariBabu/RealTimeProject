@@ -61,9 +61,13 @@
     position: relative;
 }
 @media only screen and (max-width: 767px) {
+    .header-page img{
+        padding: 0;
+    }
     .toggle {
         display: block;
         position: absolute;
+        right: 10px;
     }    
     .menu {
         display: none;
@@ -72,7 +76,7 @@
         left: -100px;
         /* padding: 15px 0; */
         font-size: 15px;
-        margin: 10px 0;
+        margin: 10px 0 0 28px;
         transition: 0.25s;
         border-left: 1px solid whitesmoke;
         height: 277px;

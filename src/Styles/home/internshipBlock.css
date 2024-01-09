@@ -31,7 +31,7 @@
     content: '';
     width: 0;
     height: 2px;
-    background-color: orange;
+    background-color: blue;
     position: absolute;
     bottom: -4px;
     left: 0;
@@ -42,7 +42,7 @@
     width: 100%;
 }
 .cources-block a:hover {
-    color: green;
+    color: #F5C055;
 }
 .content-block {
     display: flex;
@@ -65,14 +65,16 @@
     list-style-type: none;
 }
 .left ul li button{
-    background-color: rgb(248,174,22);
+    background-color: #F5C055;
     border: none;
     outline: none;
     padding: 5px 25px;
     border-radius: 5px;
     font-size: 20px;
 }
-
+.internship-blocks .span-text {
+    color: #F5C055;
+}
 @media only screen and (max-width: 768px) {
     .internshipblock-page h2 {
         font-size: 18px;

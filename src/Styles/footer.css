@@ -24,8 +24,7 @@
 .footer .columns .links .footerCol{
     display: flex;
     flex-direction: column;
-    gap: 20px;
-    
+    gap: 20px; 
 }
 .footer .columns .logoInfo .footerInfo img{
     width: 260px;
@@ -130,6 +129,9 @@
   }
   
   @media screen and (max-width: 768px){
+    .footer img {
+      margin: 0 0 0 35px;
+    }
     .footer{
         padding: 20px;
         display: flex;

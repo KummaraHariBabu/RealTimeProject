@@ -2,14 +2,14 @@ import React from 'react'
 import "../../Styles/home/internshipBlock.css"
 import internimg1 from "../../Assets/image/internship-explore.webp"
 
-const InternShipBlock = () => {
+const InternShipPrograms = () => {
   return (
-    <div className="internshipblock-page">
+<div className="internshipblock-page">
       <div className="internship-blocks">
         <h2>Explore<span className='span-text'>.</span> Upskill<span className='span-text'>.</span> Build</h2>
         <div className="cources-block">
           <a href="">Skill Courses</a>
-          <a href="/internshipprograms">Internship Programs</a>
+          <a href="">Internship Programs</a>
           <a href="">Job Programs</a>
         </div>
         <div className="content-block">
@@ -17,7 +17,7 @@ const InternShipBlock = () => {
             <ul>
               <li><h4>Learn Your Way To Success With <span className='span-text'>150+</span> Skill Courses</h4></li>
               <li>New Courses Every </li>
-              <li>On-Demand Industry Skills</li>
+              <li>Month On-Demand Industry Skills</li>
               <li>Completion Certificate</li>
               <li><button>Explore Cources</button></li>
             </ul>
@@ -28,7 +28,7 @@ const InternShipBlock = () => {
         </div>
       </div>
     </div>
-  )
+)
 }
 
-export default InternShipBlock
+export default InternShipPrograms
