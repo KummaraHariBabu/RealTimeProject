@@ -29,7 +29,25 @@
     color: white;
     padding: 14px 16px;
     text-decoration: none;
-    display: block;
+    display: inline-block;
+    position: relative;
+    
+}
+.menu a::before {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 0px;
+    transition: all 0.25s ease-in-out 0s;
+    background-color: #9e7f25;
+    left: 15px;
+    bottom: 10px;
+ }
+.menu a:hover::before {
+    width: 25px;
+}
+.menu a:hover {
+    color: green;
 }
 .toggle {
     display: none;
@@ -61,7 +79,7 @@
      } 
      .menu a:hover {
         background-color: whitesmoke;
-        color: #333;
+        color: green;
 
      }
      .menu a {

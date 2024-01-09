@@ -1,0 +1,119 @@
+.internshipblock-page {
+    background-color: #24272C;
+    width: 90%;
+    border-radius: 10px;
+    /* padding: 20px; */
+    margin: auto;
+    margin-bottom: 20px;
+}
+.internship-blocks {
+    padding: 20px 20px 0px 20px;
+}
+.internshipblock-page h2 {
+    text-align: center;
+    font-size: 30px;
+}
+.cources-block {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 80%;
+    margin: auto;
+
+}
+.cources-block a {
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    position: relative;
+}
+.cources-block a::before {
+    content: '';
+    width: 0;
+    height: 2px;
+    background-color: orange;
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    transition: all ease-in-out 0.25s;
+
+}
+.cources-block a:hover::before {
+    width: 100%;
+}
+.cources-block a:hover {
+    color: green;
+}
+.content-block {
+    display: flex;
+    gap: 150px;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 70px;
+}
+.content-blocks {
+    width: 50%;
+}
+.content-blocks img{
+    width: 400px;
+    height: 300px;
+}
+.left ul li{
+    /* list-style-image: url('../../Assets/image/list-type.svg')  ; */
+    padding: 0 15px 15px 15px;
+    font-size: 20px;
+    list-style-type: none;
+}
+.left ul li button{
+    background-color: rgb(248,174,22);
+    border: none;
+    outline: none;
+    padding: 5px 25px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+    .internshipblock-page h2 {
+        font-size: 18px;
+    }
+    .internship-blocks {
+        padding: 20px 0 0 0;
+    }
+    .internshipblock-page {
+        background-color: #24272C;
+        width: 95%;
+        border-radius: 0px;
+    }
+    .cources-block {
+        width: 100%;
+        text-align: center;
+    }
+    .cources-block a {
+        font-size: 14px;
+    }
+    .content-block {
+        display: block;
+        margin: 20px -25px;
+        font-size: 13px;
+    }
+    .content-blocks {
+        width: 100%;
+    }
+    .left ul li h4 {
+        margin: 0;
+    }
+    .left ul li{
+        font-size: 13px;
+    }
+    .left ul li button{
+        padding: 5px 20px;
+        font-size: 15px;
+    }
+    .content-blocks img{
+        width: 400px;
+        height: 200px;
+        padding: 0 0 0 25px;
+    }
+    
+}
