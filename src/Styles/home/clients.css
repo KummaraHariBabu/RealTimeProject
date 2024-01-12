@@ -1,14 +1,15 @@
 .clients-page {
     /* width: 100%; */
     margin: 10px 0;
-    background-color: rgb(225, 206, 209);
+    /* background-color: rgb(225, 206, 209); */
     text-align: center;
     color: black;
-    padding: 5px 10px 20px 40px;
-}
+    padding: 50px 150px;
+    background-color: #faf0f3;
+  }
 .clients-page h2 {
-    font-size: 20px;
-
+    font-size: 25px;
+    margin: 0 0 50px 0;
 }
 .companies {
     display: flex;
@@ -39,6 +40,7 @@
     }
     .clients-page h2 {
         font-size: 18px;
+        margin: 0 0 20px 0;
     }
     .companies img {
         width: 40px;

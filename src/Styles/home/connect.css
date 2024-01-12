@@ -1,0 +1,41 @@
+.connect-page {
+    background-color: #000;
+    width: 75%;
+    padding: 25px 20px 40px ;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 10px;
+}
+.connect-page p {
+    margin-bottom: 35px;
+}
+.connect-page h1 {
+    margin: 0;
+}
+.connect-page a{
+    text-decoration: none;
+    font-weight: 600;
+    background-color: #fd6914;
+    color: white;
+    padding: 15px 50px;
+    font-size: 18px;
+    border-radius: 8px;
+    border: none;
+    margin: 10px ;
+}
+@media only screen and (max-width: 768px) {
+    .connect-page {
+        width: 100%;
+        padding: 25px 0 40px 0;
+    } 
+    .connect-page h1 {
+        font-size: 18px;
+    }   
+    .connect-page p {
+        font-size: 13px;
+    }
+    .connect-page a {
+        font-size: 15px;
+        padding: 10px 40px;
+    }
+}

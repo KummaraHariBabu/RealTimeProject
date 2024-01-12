@@ -1,6 +1,7 @@
 import React from 'react'
 import courseimg from "../../Assets/Home/course.jpg";
 import projectimg from "../../Assets/Home/projects.jpg"
+import "../../Styles/home/coursesprojects.css"
 
 const CoursesProjects = () => {
   return (

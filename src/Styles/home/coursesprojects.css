@@ -1,9 +1,68 @@
 .courses-projects-page {
-    width: 80%;
-    background-color: antiquewhite;
+    width: 90%;
+    background: rgb(222,184,135);
+    padding: 10px 0 20px 0;
     margin: auto;
 }
+.courses-projects-page h1{
+    text-align: center;
+    color: #000;
+}
+.courses-block {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.projects-block {
+    display: inline-grid;
+    gap: 10px;
+    width: 100%;
+}
 .projects-block img {
-    width: 200px;
-    height: 200px;
+    width: 90%;
+    height: 250px;
+    border-radius: 5px;
+    margin: auto;
+    background: linear-gradient(to right, rgba(0,0,0,0.4),rgba(0,0,0));
+}
+/* .projects-block img:hover {
+    background: linear-gradient(to right, rgba(147, 134, 134, 0.4),rgb(148, 36, 36));
+} */
+
+.projects-block button {
+    padding: 10px 0px;
+    font-size: 18px;
+    background-color: #F98541;
+    outline: none;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    width: 90%;
+    margin: auto;
+}
+
+@media only screen and (max-width: 768px) {
+    .courses-projects-page {
+        width: 100%;
+        padding: 1px 0 10px 0;
+    }
+    .courses-projects-page h1{
+        font-size: 18px;
+    }
+    .courses-block {
+        display: grid;
+        row-gap: 10px;justify-content: stretch;
+    }
+    .projects-block {
+        width: 100%;
+        gap: 3px;
+    }
+    .projects-block img {
+        height: 150px;
+    }
+    .projects-block button {
+        padding: 5px 0px;
+        font-size: 13px;
+    }
+
 }

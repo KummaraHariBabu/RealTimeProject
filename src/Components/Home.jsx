@@ -7,6 +7,8 @@ import Address from './Home/Address'
 import InternShipBlock from './Home/InternShipBlock'
 import Clients from './Home/Clients'
 import CoursesProjects from './Home/CoursesProjects'
+import HowWeWork from './Home/HowWeWork'
+import Connect from './Home/Connect'
 
 const Home = () => {
   return (
@@ -26,8 +28,10 @@ const Home = () => {
         </div>
         <Address/>
         <InternShipBlock/>
+        <HowWeWork/>
         <CoursesProjects/>
         <Clients/>
+        <Connect/>
     </div>
    )
 }
