@@ -5,7 +5,7 @@ const Connect = () => {
     <div className="connect-page">
         <h1>Talk to our Experts</h1>
         <p>Connect with our team of experts for expert advice and solutions. Let us help you succeed</p>
-        <a href="">Contact Us</a>
+        <a href="/contact">Contact Us</a>
     </div>
    )
 }
