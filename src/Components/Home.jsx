@@ -6,6 +6,7 @@ import person3 from "../Assets/Home/person3.png"
 import Address from './Home/Address'
 import InternShipBlock from './Home/InternShipBlock'
 import Clients from './Home/Clients'
+import CoursesProjects from './Home/CoursesProjects'
 
 const Home = () => {
   return (
@@ -25,6 +26,7 @@ const Home = () => {
         </div>
         <Address/>
         <InternShipBlock/>
+        <CoursesProjects/>
         <Clients/>
     </div>
    )

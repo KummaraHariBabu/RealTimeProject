@@ -1,0 +1,9 @@
+.courses-projects-page {
+    width: 80%;
+    background-color: antiquewhite;
+    margin: auto;
+}
+.projects-block img {
+    width: 200px;
+    height: 200px;
+}
