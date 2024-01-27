@@ -34,7 +34,7 @@ function Footer() {
                   <div className="social">
                     <a href="https://github.com/KummaraHariBabu" target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i></a>
                     <a href="https://www.linkedin.com/in/hari-babu-kummara-b8a474269" target="_blank" rel="noopener noreferrer"><i className="bi bi-linkedin"></i></a>
-                    <a href="https://kummaraharibabu.github.io/My-Portfolio/" target="_blank" rel="noopener noreferrer"><i className="bi bi-instagram"></i></a>
+                    <a href="https://www.instagram.com/shirf_tere_hero_81189" target="_blank" rel="noopener noreferrer"><i className="bi bi-instagram"></i></a>
                     <a href="https://www.facebook.com/profile.php?id=100049243516246&mibextid=ZbWKwL" target="_blank" rel="noopener noreferrer"><i class="bi bi-facebook"></i></a>
                     <a href="https://kummaraharibabu.github.io/My-Portfolio/" target="_blank" rel="noopener noreferrer"><i class="bi bi-person-slash"></i></a>
                     <a href="https://x.com/haribabu8118?t=ThzNoaHvezdaqN43c2v87A&s=08" target="_blank" rel="noopener noreferrer"><i className="bi bi-twitter"></i></a>
@@ -46,7 +46,7 @@ function Footer() {
           <div className="footerCol">
             <span>Quick Links</span>
             <a href="/about">About Us</a>
-            <a href="#">Blog</a>
+            <a href="/home">Blog</a>
             <a href="/contact">Contact Us</a>
           </div>
 
@@ -77,8 +77,6 @@ function Footer() {
       </div>
       <div className="footerEnd">
         <p>COPYRIGHT©SKILLCORTEX EDTECH. All rights reserved</p>
-       
-
       </div>
 </div>
 

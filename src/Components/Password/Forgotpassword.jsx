@@ -9,7 +9,12 @@ const Forgotpassword = () => {
   const handleGenerateOTP = () => {
     // Perform any necessary logic before navigating
     // For now, let's just navigate to the "/newpassword" route
-    navigate('/newpassword');  // Use navigate function instead of history.push
+     // Use navigate function instead of history.push
+    if(email==="") {
+      alert("Enter email!")
+    } else {
+      navigate('/newpassword');
+    }
   };
 
   return (
